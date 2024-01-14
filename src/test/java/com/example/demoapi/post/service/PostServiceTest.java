@@ -19,7 +19,7 @@ public class PostServiceTest {
 
     private final PostRepository postRepository;
 
-    //@Autowired
+    @Autowired
     public PostServiceTest(PostRepository postRepository) {
         this.postRepository = postRepository;
     }
