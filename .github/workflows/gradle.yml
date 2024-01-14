@@ -34,6 +34,6 @@ jobs:
     - name: Run chmod to make gradlew executable
       run: chmod +x ./gradlew  # gradlew 명령어 실행 권한 부여
     - name: Build with Gradle
-      uses: gradle/gradle-build-action@bd5760595778326ba7f1441bcf7e88b49de61a25 # v2.6.0
+      uses: gradle/gradle-build-action@749f47bda3e44aa060e82d7b3ef7e40d953bd629 # v2.6.0
       with:
         arguments: build
