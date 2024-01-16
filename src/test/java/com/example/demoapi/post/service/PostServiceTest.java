@@ -82,7 +82,7 @@ public class PostServiceTest {
         var actual = postRepository.findById(createdPost.getId()).get();
 
         // Assert
-        assertThat(actual.getTitle()).isEqualTo(newTitle);
+        assertThat(actual.getTitle()).isEqualTo("newtitle");
         assertThat(actual.getContents()).isEqualTo(newContents);
     }
 
