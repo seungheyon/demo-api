@@ -1,5 +1,6 @@
 package com.example.demoapi.post.entity;
 
+import com.example.demoapi.post.dto.PostUpdateDto;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -23,4 +24,9 @@ public class Post {
     private String title;
 
     private String contents;
+
+    public void update(PostUpdateDto postUpdateDto){
+        this.title = postUpdateDto.getTitle();
+        this.contents = postUpdateDto.getContents();
+    }
 }
