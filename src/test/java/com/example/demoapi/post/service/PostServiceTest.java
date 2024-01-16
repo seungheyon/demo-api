@@ -27,7 +27,7 @@ public class PostServiceTest {
     @DisplayName("글 제목과 내용이 주어지면 테이블에 글이 추가된다.")
     @Test
     void createPostTest(){
-        // Arrange
+        // Arrange commitTest
         PostService sut = new PostService(postRepository);
         String testTitle = "testTitle";
         String testContents = "testContents";
