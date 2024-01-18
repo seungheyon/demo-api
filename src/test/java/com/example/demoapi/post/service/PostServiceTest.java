@@ -16,7 +16,7 @@ import org.springframework.transaction.annotation.Transactional;
 import static org.assertj.core.api.Assertions.assertThat;
 
 @SpringBootTest
-////@ContextConfiguration(classes = DemoApiApplication.class)
+//@ContextConfiguration(classes = DemoApiApplication.class)
 public class PostServiceTest {
 
     private final PostRepository postRepository;
