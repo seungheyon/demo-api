@@ -18,7 +18,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 @SpringBootTest
 //@ContextConfiguration(classes = DemoApiApplication.class)
 public class PostServiceTest {
-
+    // ciTest
     private final PostRepository postRepository;
 
     @Autowired
